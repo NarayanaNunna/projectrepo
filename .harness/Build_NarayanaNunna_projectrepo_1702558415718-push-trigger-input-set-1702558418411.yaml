@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_NarayanaNunna_projectrepo_1702558415718-push-trigger-input-set
+  identifier: Build_NarayanaNunna_projectrepo_1702558415718pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_NarayanaNunna_projectrepo_1702558415718
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
